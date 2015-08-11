@@ -1,0 +1,9 @@
+curl -H "Content-Type: application/json" -X POST -d '{"username":"xyz","password":"xyz"}' http://localhost:3000/api/login
+
+curl -F "text=Risks are an inherent part of operating a business. Damage can stem from many different crevices of an organization’s infrastructure and are easily brought to public attention due to the instant nature of digital media." http://localhost:8080/text
+
+curl -F "file=@/home/misterdan/workspace/topic-interview-questions-master/src/main/resources/blog.txt" http://localhost:8080/file
+
+
+
+
